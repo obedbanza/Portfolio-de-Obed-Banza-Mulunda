@@ -1,0 +1,99 @@
+/* Police Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+ 
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+ 
+body {
+ font-family: 'Poppins', sans-serif;
+ line-height: 1.6;
+ background-color: #f4f4f4;
+ color: #333;
+ padding-bottom: 60px;
+}
+ 
+header {
+ background-color: #222;
+ color: white;
+ padding: 20px 10%;
+ text-align: center;
+}
+ 
+header h1 {
+ font-size: 28px;
+ margin-bottom: 10px;
+}
+ 
+nav ul {
+ list-style: none;
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ gap: 15px;
+}
+ 
+nav ul li a {
+ color: white;
+ text-decoration: none;
+ font-weight: 500;
+ transition: color 0.3s ease;
+}
+ 
+nav ul li a:hover {
+ color: #ff9900;
+}
+ 
+.section {
+ padding: 40px 10%;
+ background-color: white;
+ margin: 20px auto;
+ border-radius: 8px;
+ max-width: 1000px;
+ box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+ 
+.section h2 {
+ color: #ff9900;
+ font-size: 24px;
+ margin-bottom: 15px;
+}
+ 
+.section ul {
+ list-style: disc;
+ padding-left: 20px;
+}
+ 
+footer {
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+ background-color: #222;
+ color: white;
+ text-align: center;
+ padding: 10px;
+ font-size: 14px;
+}
+ 
+/* Responsive design */
+@media (max-width: 768px) {
+ nav ul {
+   flex-direction: column;
+   gap: 10px;
+ }
+ 
+ header h1 {
+   font-size: 22px;
+ }
+ 
+ .section {
+   padding: 30px 5%;
+ }
+ 
+ .section h2 {
+   font-size: 20px;
+ }
+}
+
